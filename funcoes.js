@@ -1,15 +1,13 @@
 function numeros(){
     var x = event.keyCode 
 
-    if (x != 0) {
-
     if (x < 42 || x > 57){
         event.preventDefault()
     
 
         console.log("tecla pressionada" + x)
         }
-    }
+    
 }
 
 
